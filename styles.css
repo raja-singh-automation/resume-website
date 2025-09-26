@@ -110,5 +110,99 @@ body{
 .nav a:hover {
   color: #ffffff;             /* pure white on hover */
 }
+/* Technical Skills H2 ke liye style */
+#skills h2 {
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--accent), #7c3aed); /* gradient background */
+    -webkit-background-clip: text; /* clips gradient to text */
+    -webkit-text-fill-color: transparent; /* makes text color transparent so gradient shows */
+    display: inline-block;
+}
+/* Experince H2 ke liye style */
+#experience h2 {
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--accent), #7c3aed); /* gradient background */
+    -webkit-background-clip: text; /* clips gradient to text */
+    -webkit-text-fill-color: transparent; /* makes text color transparent so gradient shows */
+    display: inline-block;
+}
+/* Experince H2 ke liye style */
+#education h2 {
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--accent), #7c3aed); /* gradient background */
+    -webkit-background-clip: text; /* clips gradient to text */
+    -webkit-text-fill-color: transparent; /* makes text color transparent so gradient shows */
+    display: inline-block;
+}
+/* Experince H2 ke liye style */
+#highlights h2 {
+    font-size: 24px;
+    font-weight: 600;
+    background: linear-gradient(90deg, var(--accent), #7c3aed); /* gradient background */
+    -webkit-background-clip: text; /* clips gradient to text */
+    -webkit-text-fill-color: transparent; /* makes text color transparent so gradient shows */
+    display: inline-block;
+}
+/* General Card */
+.card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.01));
+    border-radius: var(--radius);
+    padding: 16px;
+    border: 1px solid rgba(255,255,255,0.03);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* softer, more natural */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.2); /* slightly deeper on hover */
+    }
+
+/* Skill Card */
+.skill-card {
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.01));
+    border-radius: var(--radius);
+    padding: 16px;
+    border: 1px solid rgba(255,255,255,0.03);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* softer, more natural */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .skill-card:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.2); /* slightly deeper on hover */
+    }
+/* highlights */
+.highlights {
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.01));
+    border-radius: var(--radius);
+    padding: 16px;
+    border: 1px solid rgba(255,255,255,0.03);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* softer, more natural */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .highlights:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.2); /* slightly deeper on hover */
+    }
+
+/* job */
+.job {
+    background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.01));
+    border-radius: var(--radius);
+    padding: 16px;
+    border: 1px solid rgba(255,255,255,0.03);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15); /* softer, more natural */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .job:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 12px 25px rgba(0,0,0,0.2); /* slightly deeper on hover */
+    }
 
 
